@@ -1,0 +1,29 @@
+body{
+    z-index: 1;
+}
+
+#bg-img{
+    z-index: 0;
+    position: absolute;
+    margin-top: -130px;
+    width: 110vw;
+    aspect-ratio: 16/9;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+
+main{
+    position: relative;
+    z-index: 3;
+}
+
+.card ul, .card-header{
+    font-weight: bold;
+}
+
+.card ul li div{
+    font-weight: 600;
+}
